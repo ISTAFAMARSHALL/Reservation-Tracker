@@ -8,14 +8,12 @@
 
 
 Restaurant.destroy_all
-# Patron.destroy_all
+Patron.destroy_all
 
-# 10.times do |index|
-#     Restaurant.create!(name: Faker::Restaurant.unique.name, type: Faker::Restaurant.type, description: Faker::Restaurant.description)
-# end
+10.times do |index|
+    Restaurant.create!(name: Faker::Restaurant.unique.name, cuisine: Faker::Restaurant.type, description: Faker::Restaurant.unique.description)
+end
 
-# 10.times do |index|
-# Patron.create!(name: Faker::Name.unique.name, phone_number: Faker::PhoneNumber.cell_phone, email_address: Faker::Internet.free_email)
-# end
-
-Restaurant.create!(name: Faker::Restaurant.unique.name, cuisine: Faker::Restaurant.type, description: Faker::Restaurant.description)
+10.times do |index|
+    Patron.create!(name: Faker::Name.unique.name, phone_number: Faker::PhoneNumber.cell_phone, email_address: Faker::Internet.free_email)
+end
