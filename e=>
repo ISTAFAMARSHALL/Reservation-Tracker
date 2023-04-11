@@ -1,0 +1,13 @@
+                                   List of databases
+         Name         |  Owner   | Encoding | Collate |  Ctype  |   Access privileges   
+----------------------+----------+----------+---------+---------+-----------------------
+ bird_app_development | neo      | UTF8     | C.UTF-8 | C.UTF-8 | 
+ bird_app_test        | neo      | UTF8     | C.UTF-8 | C.UTF-8 | 
+ neo                  | neo      | UTF8     | C.UTF-8 | C.UTF-8 | 
+ postgres             | postgres | UTF8     | C.UTF-8 | C.UTF-8 | 
+ template0            | postgres | UTF8     | C.UTF-8 | C.UTF-8 | =c/postgres          +
+                      |          |          |         |         | postgres=CTc/postgres
+ template1            | postgres | UTF8     | C.UTF-8 | C.UTF-8 | =c/postgres          +
+                      |          |          |         |         | postgres=CTc/postgres
+(6 rows)
+
